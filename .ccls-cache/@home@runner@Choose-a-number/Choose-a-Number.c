@@ -14,7 +14,7 @@ int main (void) {
   char *Pickup[] = {
         "Did you fart?",
         "Are you http?",
-        "Are you my phone screen?",
+        "Are you a florist?",
         "I just wanna cddle, but I can't",
         "Can you help me with this equation?",
         "ALbert Einstein said that nothing is faster than light",
@@ -31,7 +31,7 @@ int main (void) {
   char *Line[] = {
         "Cause you blew me away!",
         "Because without you I'm just ://",
-        "Cause I wanna touch you every second.",
+        "Cause I only want your tulips.",
         "Cause I'm missing u.",
         "U + 15 = 25, nevermind I got it. U is definitely a 10!",
         "Well he clearly hasn't seen how fast I've fallen for you.",
@@ -53,7 +53,7 @@ int main (void) {
   
   do{ //Beginning of Do...While Loop
     printf("\n"); //prints a blank line to the screen
-  printf("Please choose a number from 1 to 14: "); //prints a message to the screen, prompting user to enter a number
+  printf("Please choose a number from 1 to 15: "); //prints a message to the screen, prompting user to enter a number
   scanf("%d", &Num); //requests a number
 
   printf("\n");//prints a blank line to the screen
@@ -64,6 +64,7 @@ int main (void) {
         printf("%s", Pickup[0]);
         printf("\n");
         
+        printf("Your Response: ");
         scanf(" %[^\n]s", Answer);
         printf("\n");
         
@@ -99,6 +100,7 @@ int main (void) {
         printf("%s", Pickup[3]);
         printf("\n");
         
+      	printf("Your Response: ");        
         scanf(" %[^\n]s", Answer);
         printf("\n");
         
@@ -110,7 +112,8 @@ int main (void) {
         printf("%s", Pickup[4]);
         printf("\n");
         
-        scanf(" %[^\n]s", Answer);
+        printf("Your Response: ");
+	    scanf(" %[^\n]s", Answer);
         printf("\n");
         
         printf("%s", Line[4]);
@@ -121,6 +124,7 @@ int main (void) {
         printf("%s", Pickup[5]);
         printf("\n");
       
+        printf("Your Response: ");
         scanf(" %[^\n]s", Answer);
         printf("\n");
       
@@ -132,6 +136,7 @@ int main (void) {
         printf("%s", Pickup[6]);
         printf("\n");
         
+        printf("Your Response: ");        
         scanf(" %[^\n]s", Answer);
         printf("\n");
         
@@ -142,7 +147,8 @@ int main (void) {
     case 8: 
         printf("%s", Pickup[7]);
         printf("\n");
-        
+
+        printf("Your Response: ");       	    
         scanf(" %[^\n]s", Answer);
         printf("\n");
         
@@ -154,6 +160,7 @@ int main (void) {
         printf("%s", Pickup[8]);
         printf("\n");
         
+        printf("Your Response: ");        
         scanf(" %[^\n]s", Answer);
         printf("\n");
         
@@ -165,6 +172,7 @@ int main (void) {
         printf("%s", Pickup[9]);
         printf("\n");
         
+        printf("Your Response: ");        
         scanf(" %[^\n]s", Answer);
         printf("\n");
         
@@ -176,6 +184,7 @@ int main (void) {
         printf("%s", Pickup[10]);
         printf("\n");
         
+        printf("Your Response: ");        
         scanf(" %[^\n]s", Answer);
         printf("\n");
         
@@ -187,6 +196,7 @@ int main (void) {
         printf("%s", Pickup[11]);
         printf("\n");
         
+        printf("Your Response: ");        
         scanf(" %[^\n]s", Answer);
         printf("\n");
         
@@ -198,6 +208,7 @@ int main (void) {
         printf("%s", Pickup[12]);
         printf("\n");
         
+        printf("Your Response: ");        
         scanf(" %[^\n]s", Answer);
         printf("\n");
         
@@ -209,6 +220,7 @@ int main (void) {
         printf("%s", Pickup[13]);
         printf("\n");
         
+        printf("Your Response: ");        
         scanf(" %[^\n]s", Answer);
         printf("\n");
         
@@ -220,6 +232,7 @@ int main (void) {
         printf("%s", Pickup[14]);
         printf("\n");
         
+        printf("Your Response: ");        
         scanf(" %[^\n]s", Answer);
         printf("\n");
         
@@ -239,181 +252,3 @@ int main (void) {
   return 0;
   
 }//End Program
-        
-        
-        
-        
-        
-         
-        
-        
-        
-        
-          
-        
-        
-        
-  
-        
-        
-        
-        
-        
-         
-        
-        
-         
-        
-        
-        
-        
-         
-  
-   
-    
-   
-
-  
-
-  
-    
-     
-        
-        
-        
-        
-        
-        
-        
-        
-    
-      
-      
-    
-      
-      
-        
-
-     
-        
-        
-        
-        
-        
-        
-        
-          
-     
-        
-        
-        
-        
-        
-        
-        
-          
-        
-
-     
-        
-        
-      
-        
-        
-      
-        
-           
-      
-
- 
-        
-        
-      
-        
-        
-      
-        
-           
-      
- 
- 
-        
-        
-      
-        
-        
-      
-        
-           
-      
-
- 
-        
-        
-      
-        
-        
-      
-        
-           
-      
-
- 
-        
-        
-      
-        
-        
-      
-        
-           
-      
-
- 
-        
-        
-      
-        
-        
-      
-        
-           
-      
-
- 
-        
-        
-      
-        
-        
-      
-        
-           
-      
-
- 
-        
-        
-      
-        
-        
-      
-        
-           
-      
-
- 
-        
-        
-      
-        
-        
-      
-        
-           
-      
-    
-            
-       
-  
-End Program
